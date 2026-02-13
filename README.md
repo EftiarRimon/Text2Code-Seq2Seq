@@ -1,8 +1,17 @@
-# Text2Code-Seq2Seq
-This project develops and evaluates three different Sequence-to-Sequence (Seq2Seq) architectures:
+# Text-to-Python Code Generation using Seq2Seq Models
 
-A standard (Vanilla) RNN-based Seq2Seq model
+This project implements and compares three Seq2Seq architectures:
 
-An LSTM-based Seq2Seq model
+1. Vanilla RNN Seq2Seq
+2. LSTM Seq2Seq
+3. BiLSTM Encoder + LSTM Decoder with Bahdanau Attention
 
-A hybrid model with a BiLSTM encoder and an LSTM decoder incorporating Bahdanau Attention
+Dataset: CodeSearchNet Python (HuggingFace)
+
+---
+
+# Setup
+
+```bash
+pip install -r requirements.txt
+```
